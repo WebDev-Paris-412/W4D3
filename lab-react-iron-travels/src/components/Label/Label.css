@@ -1,0 +1,13 @@
+.Label {
+	padding: 0.25rem 0.5rem;
+	background-color: rgb(12, 161, 12);
+	color: black;
+	border-radius: 4px;
+	&.premium {
+		background-color: rgb(34, 34, 205);
+		color: white;
+	}
+	&.all-inclusive {
+		background-color: hotpink;
+	}
+}
